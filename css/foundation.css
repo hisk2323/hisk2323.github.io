@@ -5584,5 +5584,11 @@ html.is-reveal-open {
     .hide-for-landscape,
     .show-for-portrait {
       display: block !important; } }
-
 /*# sourceMappingURL=foundation.css.map */
+
+.info-text {
+  color: snow;
+  display: inline;
+  padding-left: 0.5em;
+  margin-top: 1em;
+}
