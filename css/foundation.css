@@ -5588,7 +5588,21 @@ html.is-reveal-open {
 
 .info-text {
   color: snow;
-  display: inline;
   padding-left: 0.5em;
-  margin-top: 1em;
+}
+
+.body-text {
+  color: snow;
+}
+
+p a {
+  color: snow;
+}
+
+p a:hover {
+  color:black;
+}
+
+p a:visited {
+  color: blanchedalmond;
 }
