@@ -26,7 +26,15 @@
         <!-- Your page content lives here -->
         <div class="off-canvas-content" data-off-canvas-content style="background-color: #d9feff">
             <!-- main content within a `grid-container` -->
-            <div class="grid-container" id="bodylinks">
+            <div class="grid-container full">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell" style="background-color: #1779ba; display: flex; align-items: center;">
+                    <input type="image" src="resources/hamburger-button.png" alt="Hamburger menu button" data-toggle="offCanvas" style="width: 2em; height: 2em; border: 1px solid black;"/>
+                        <p class="info-text"><Strong>Owen Hiskey</Strong> | <a href="https://www.stthomas.edu" target="_blank">University of St. Thomas</a> | <a href="mailto: hisk2323@stthomas.edu">hisk2323@stthomas.edu</a> 
+                            <br> 4th year Computer Science student</p>
+                    </div>
+                </div>
+            <div class="grid-container">
                 <div class="grid-y" style="height: 100%">
                     <div class="cell small-12 medium-12 large-2">
                         <!-- Some type of image will go here eventually -->
@@ -36,6 +44,12 @@
                     </div>
                     <div class="cell small-12 medium-12 large-8" style="background-color:skyblue; border: 0.5em solid pink; margin-top: 1em">
                         <h4 style="color:wheat; text-align: center">Project 1: Java Epoch Time Converter</h4>
+                        <img src = "/resources/project0.png" style="height: auto; width: auto;">
+                        <p>This program takes 3 separate inputs from the user: a month (in the form of a digit from 1-12); a day (in the form of a digit from 1-31); and a year (any valid year). It then computes that date in epoch time,
+                            and prints this value to the screen. Finally, the program also selects a random date from the same year that the user entered, and also prints this value to the screen. The program takes leap years into 
+                            consideration to ensure that all printed values are correct. While this project is a little simple compared to what I could code now, I chose to exhibit it on my site because it was really the first major 
+                            project I did after declaring my Computer Science major, and it feels special to me because of that. 
+                        </p>
                     </div>
                     <div class="cell small-12 medium-12 large-8" style="background-color: skyblue; border: 0.5em solid navy; margin-top: 1em">
                         <h4 style="color: wheat; text-align: center">Project 2: History Sniffing via Fake Captcha</h4>
@@ -44,6 +58,7 @@
                         <h4 style="color: wheat; text-align: center">Project 3: MIPS Program to compute the Nth term of the Fibonacci Sequence</h4>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
