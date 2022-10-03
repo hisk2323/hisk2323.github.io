@@ -14,7 +14,9 @@
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  background-color: #d9feff;
+}
 
 body {
   margin: 0; }
@@ -5591,18 +5593,25 @@ html.is-reveal-open {
   padding-left: 0.5em;
 }
 
-.body-text {
+p a, a:visited {
   color: snow;
 }
 
-p a {
-  color: snow;
+p a:hover, a:visited:hover {
+  color: #36454F;
 }
 
-p a:hover {
-  color:black;
+.vertical.menu {
+  background-color: #1779ba;
 }
 
-p a:visited {
-  color: blanchedalmond;
+#bodylinks a,
+#bodylinks a:visited {
+  color: lightslategray;
 }
+
+#bodylinks a:hover,
+#bodylinks a:visited:hover {
+  color: #36454F;
+}
+
