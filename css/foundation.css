@@ -8859,6 +8859,11 @@ li a, a:visited {
   color: snow;
 }
 
+p a,
+a:visited {
+  color: snow;
+}
+
 p a:hover,
 a:visited:hover {
   color: #36454F;
