@@ -8855,8 +8855,7 @@ p {
   padding-left: 0.5em;
 }
 
-p a,
-a:visited {
+li a, a:visited {
   color: snow;
 }
 
