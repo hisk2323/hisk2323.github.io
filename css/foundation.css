@@ -8865,7 +8865,9 @@ a:visited {
 }
 
 p a:hover,
-a:visited:hover {
+a:visited:hover,
+li a:hover,
+li a:visited:hover {
   color: #36454F;
 }
 
