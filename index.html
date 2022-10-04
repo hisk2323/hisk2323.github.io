@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
-	<link rel="stylesheet" href="css/foundation.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/foundation.css">
 </head>
+
 <body>
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
@@ -30,26 +32,38 @@
                 <!-- `grid-x` represents a row -->
                 <div class="grid-x grid-padding-x">
                     <div class="cell" style="background-color: #1779ba; display: flex; align-items: center;">
-                    <input type="image" src="resources/hamburger-button.png" alt="Hamburger menu button" data-toggle="offCanvas" style="width: 2em; height: 2em; border: 1px solid black;"/>
-                        <p class="info-text"><Strong>Owen Hiskey</Strong> | <a href="https://www.stthomas.edu" target="_blank">University of St. Thomas</a> | <a href="mailto: hisk2323@stthomas.edu">hisk2323@stthomas.edu</a> 
-                            <br> 4th year Computer Science student</p>
+                        <input type="image" src="resources/hamburger-button.png" alt="Hamburger menu button"
+                            data-toggle="offCanvas" style="width: 2em; height: 2em; border: 1px solid black;" />
+                        <p class="info-text"><Strong>Owen Hiskey</Strong> | <a href="https://www.stthomas.edu"
+                                target="_blank">University of St. Thomas</a> | <a
+                                href="mailto: hisk2323@stthomas.edu">hisk2323@stthomas.edu</a>
+                            <br> 4th year Computer Science student
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="grid-container" style="background-color: #d9feff">
+                <div class="cell auto">
+                    <h1>Home</h1>
+                </div>
                 <div class="grid-x grid-margin-x">
-                    <div class="cell small-4 medium-3 large-2">
-                        <img src="resources/me.jpg" style="height: auto; width: auto; margin-top: 1em">
+                    <div class="cell small-12 medium-12 large-4">
+                        <img src="resources/me.jpg" alt="Headshot photo" style="object-fit: fill; object-position: center center;">
                     </div>
-                    <div class="cell small-6 medium-4 large-8" style="background-color:skyblue; border: 0.5em solid pink; margin-top: 1em">
-                        <h4 style="color:wheat; text-align: center">About Me</h4>
+                    <div class="cell auto">
+                        <h4>About Me</h4>
                         <p class="body-text" id="bodylinks">
-                            Hi there! I'm a senior at the <a href="https://www.stthomas.edu" target="_blank">University of St. Thomas</a> majoring in 
-                            <a href="https://www.stthomas.edu/academics/undergraduate/computer-science-major-and-minor/" target="_blank">Computer Science</a>.
-                            After graduation this spring, I plan on going into the field of software development; with a particular interest in 
-                            a career in cybersecurity, Java/Python development, or web development. Outside of school, I currently work part-time for a local
-                            business making supplies for people who live with Type I and Type II Diabetes. In my free time, I play violin and piano; and I also
-                            enjoy going for walks outside, listening to music, and playing video games. 
+                            Hi there! I'm a senior at the <a href="https://www.stthomas.edu" target="_blank">University
+                                of St. Thomas</a> majoring in
+                            <a href="https://www.stthomas.edu/academics/undergraduate/computer-science-major-and-minor/"
+                                target="_blank">Computer Science</a>.
+                            After graduation this spring, I plan on going into the field of software development; with a
+                            particular interest in
+                            a career in cybersecurity, Java/Python development, or web development. Outside of school, I
+                            currently work part-time for a local
+                            business making supplies for people who live with Type I and Type II Diabetes. In my free
+                            time, I play violin and piano; and I also
+                            enjoy going for walks outside, listening to music, and playing video games.
                         </p>
                     </div>
                 </div>
@@ -64,4 +78,5 @@
         $(document).foundation();
     </script>
 </body>
+
 </html>

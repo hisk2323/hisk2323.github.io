@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Projects</title>
-	<link rel="stylesheet" href="css/foundation.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/foundation.css">
 </head>
+
 <body>
     <div class="off-canvas-wrapper">
         <!-- Your menu or Off-canvas content goes here -->
@@ -29,46 +31,100 @@
             <div class="grid-container full">
                 <div class="grid-x grid-padding-x">
                     <div class="cell" style="background-color: #1779ba; display: flex; align-items: center;">
-                    <input type="image" src="resources/hamburger-button.png" alt="Hamburger menu button" data-toggle="offCanvas" style="width: 2em; height: 2em; border: 1px solid black;"/>
-                        <p class="info-text"><Strong>Owen Hiskey</Strong> | <a href="https://www.stthomas.edu" target="_blank">University of St. Thomas</a> | <a href="mailto: hisk2323@stthomas.edu">hisk2323@stthomas.edu</a> 
-                            <br> 4th year Computer Science student</p>
-                    </div>
-                </div>
-            <div class="grid-container">
-                <div class="grid-y" style="height: 100%">
-                    <div class="cell small-12 medium-12 large-2">
-                        <!-- Some type of image will go here eventually -->
-                    </div>
-                    <div class="cell small-12 medium-12 large-8" style="background-color: skyblue; border: 0.5em solid fuchsia; margin-top: 1em">
-                        <h4 style="color: wheat; text-align: center">Projects</h4>
-                    </div>
-                    <div class="cell small-12 medium-12 large-8" style="background-color:skyblue; border: 0.5em solid pink; margin-top: 1em">
-                        <h4 style="color:wheat; text-align: center">Project 1: Java Epoch Time Converter</h4>
-                        <img src = "/resources/project0.png" style="height: auto; width: auto;">
-                        <p>This program takes 3 separate inputs from the user: a month (in the form of a digit from 1-12); a day (in the form of a digit from 1-31); and a year (any valid year). It then computes that date in epoch time,
-                            and prints this value to the screen. Finally, the program also selects a random date from the same year that the user entered, and also prints this value to the screen. The program takes leap years into 
-                            consideration to ensure that all printed values are correct. While this project is a little simple compared to what I could code now, I chose to exhibit it on my site because it was really the first major 
-                            project I did after declaring my Computer Science major, and it feels special to me because of that. 
+                        <input type="image" src="resources/hamburger-button.png" alt="Hamburger menu button"
+                            data-toggle="offCanvas" style="width: 2em; height: 2em; border: 1px solid black;" />
+                        <p class="info-text"><Strong>Owen Hiskey</Strong> | <a href="https://www.stthomas.edu"
+                                target="_blank">University of St. Thomas</a> | <a
+                                href="mailto: hisk2323@stthomas.edu">hisk2323@stthomas.edu</a>
+                            <br> 4th year Computer Science student
                         </p>
                     </div>
-                    <div class="cell small-12 medium-12 large-8" style="background-color: skyblue; border: 0.5em solid navy; margin-top: 1em">
-                        <h4 style="color: wheat; text-align: center">Project 2: History Sniffing via Fake Captcha</h4>
-                    </div>
-                    <div class="cell small-12 medium-12 large-8" style="background-color: skyblue; border: 0.5em solid gray; margin-top: 1em">
-                        <h4 style="color: wheat; text-align: center">Project 3: MIPS Program to compute the Nth term of the Fibonacci Sequence</h4>
-                    </div>
                 </div>
-            </div>
+                <div class="grid-container">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell small-12 medium-12 large-12">
+                            <h1>Projects</h1>
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <h4>Project 1: Java Epoch Time Converter</h4>
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <img src="/resources/project0.png" alt="Image of the Epoch converter program in action"
+                                style="height: auto; width: auto; margin-left: auto; margin-right: auto; display: block;">
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <p>This program takes 3 separate inputs from the user: a month (in the form of a digit from
+                                1-12); a day (in the form of a digit from 1-31); and a year (any valid year). It then
+                                computes that date in epoch time,
+                                and prints this value to the screen. Finally, the program also selects a random date
+                                from the same year that the user entered, and also prints this value to the screen. The
+                                program takes leap years into
+                                consideration to ensure that all printed values are correct. While this project is a
+                                little simple compared to what I could code now, I chose to exhibit it on my site
+                                because it was really the first big
+                                project I did after declaring my Computer Science major, and it feels special to me
+                                because of that.
+                            </p>
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <h4>Project 2: History Sniffing via Fake Captcha</h4>
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <img src="/resources/project1.png" alt="Image of the history sniffing fake CAPTCHA"
+                                style="height: auto; width: auto; margin-left: auto; margin-right: auto; display: block;">
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <p>This was one of my favorite projects that we did from Information Security. Of course,
+                                the design of the actual webpage is pretty bad compared to what we're doing now in Web
+                                Development; but the underlying
+                                code was pretty interesting. I used CSS to make visited links (a:visited) display the
+                                same color as the background, making them virtually invisible. I also made the links
+                                unclickable and unselectable, and made
+                                it so the mouse wouldn't change on hovering over them. Since the page shows visited
+                                links in a different color as unvisited ones, this program exploits that to trick users
+                                into entering what they think
+                                is a CAPTCHA. However, their input is actually parsed behind the scenes in a PHP server
+                                to decipher which of the sites they have visited, and then make a recommendation to them
+                                based on that.
+                            </p>
+                        </div>
+                        <div class="cell small-12 medium-12 large-12">
+                            <h4>Project 3: Python program for Apple Music Discord Rich Presence + Status Bar</h4>
+                        </div>
+                        <div class="cell small-12 medium-6 large-4">
+                            <img src="/resources/project2.png"
+                                alt="Image of my own Rich Presence compared to Spotify's native"
+                                style="height: auto; width: auto; margin-left: auto; margin-right: auto; display: block;">
+                        </div>
+                        <div class="cell auto">
+                            <p> This is a project I've just been working on for fun. As I'm sure some of you know,
+                                Spotify integrates with Discord's Rich Presence to
+                                show your friends what song you're listening to. Since I use Apple Music (which does not
+                                currently have Rich Presence integration)
+                                I thought I'd try to put a little program together to accomplish the same thing. In the
+                                image, you'll see a picture of it in action as well as how it compares
+                                to Spotify's Rich Presence integration. The top view is Spotify's Rich Presence; the
+                                middle view
+                                is the one I wrote in Python for Apple Music; and the bottom view is the status bar icon
+                                I implemented, which displays your currently playing song as
+                                "song - artist".
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
 
     <!-- include before closing <body> tag -->
-    <!-- test comment to make sure commits work from my other computer-->
     <script src="js/vendor.js"></script>
     <script src="js/foundation.js"></script>
     <script type="application/javascript">
         $(document).foundation();
     </script>
 </body>
+
 </html>
